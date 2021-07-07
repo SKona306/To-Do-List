@@ -1,5 +1,9 @@
+function ListItems() {
+  this.items = {}
+}
+
 function ToDoIt(item) {
-  this.item = item;
+  this.items = item;
 }
 
 let newItem = new ToDoIt("apple")
